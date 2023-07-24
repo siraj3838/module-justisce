@@ -14,17 +14,24 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- this poppins font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
         .font-family{
             font-family: 'EB Garamond', serif;
+        }
+        .font-poppins{
+            font-family: 'Poppins', sans-serif;
         }
     </style>
 </head>
 <body class="font-family">
 
 
-    <header class="md:container md:max-auto">
-        <section>
+    <header>
+        <section class="max-w-screen-xl mx-auto my-10">
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
                   <div class="dropdown">
@@ -32,36 +39,45 @@
                       <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                     </label>
                     <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                      <li><a>Item 1</a></li>
-                      <li>
-                        <a>Parent</a>
-                        <ul class="p-2">
-                          <li><a>Submenu 1</a></li>
-                          <li><a>Submenu 2</a></li>
-                        </ul>
-                      </li>
-                      <li><a>Item 3</a></li>
+                      <li><a>Home</a></li>
+                      <li><a>Service❯</a></li>
+                      <li><a>Cases ❯</a></li>
+                      <li><a>Blog ❯</a></li>
+                      <li><a>Contact Us ❯</a></li>
                     </ul>
                   </div>
-                  <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
+                  <img src="images/logo2.png" alt="">
                 </div>
                 <div class="navbar-center hidden lg:flex">
                   <ul class="menu menu-horizontal px-1">
-                    <li><a>Item 1</a></li>
-                    <li tabindex="0">
-                      <details>
-                        <summary>Parent</summary>
-                        <ul class="p-2">
-                          <li><a>Submenu 1</a></li>
-                          <li><a>Submenu 2</a></li>
-                        </ul>
-                      </details>
-                    </li>
-                    <li><a>Item 3</a></li>
+                    <li><a>Home</a></li>
+                      <li><a>Service ❯</a></li>
+                      <li><a>Cases ❯</a></li>
+                      <li><a>Blog ❯</a></li>
+                      <li><a>Contact Us ❯</a></li>
                   </ul>
                 </div>
                 <div class="navbar-end">
-                  <a class="btn">Button</a>
+                  <a class="btn bg-[#B68C5A] rounded-lg text-white text-1xl font-semibold">Free Consultation</a>
+                </div>
+              </div>
+        </section>
+        <!-- this banner section -->
+        <section class="max-w-screen-xl mx-auto">
+            <div class="lg:py-28 lg:px-96" style="background-image: url('images/banner.png');background-repeat: no-repeat; background-position: 100%; background-size: cover;">
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="hero-content text-center text-neutral-content">
+                  <div class="">
+                    <h1 class="mb-5 text-5xl font-bold">
+                        We Provide Effective<br>
+                        Legal Solutions</h1>
+                    <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                    <div class="space-y-2 lg:space-x-4">
+                        <input type="text" placeholder="Search your services" class="input input-bordered w-full max-w-xs" />
+                        <button class="btn border-none bg-[#B68C5A] rounded-lg text-white">Search</button>
+                    </div>
+        
+                  </div>
                 </div>
               </div>
         </section>
